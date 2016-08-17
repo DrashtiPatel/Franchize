@@ -1,0 +1,340 @@
+/*
+    Document   : style
+    Created on : Mar 3, 2013, 1:23:40 AM
+    Author     : Shreeji
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+* {padding:0; margin:0;}
+body {
+    padding:0;  margin:0;
+    font:11px Tahoma;
+    color:#434343;}
+
+img {behavior: url("pngbehavior.htc");
+     border:none;}
+
+h1 {font:bold 16px Verdana;}
+h3 {font:bold 16px "Trebuchet MS"; color:#323232; line-height:25px; text-indent:20px;}
+p { font:12px Tahoma; padding:7px 0;}
+.text {padding:0;}
+
+a  {font:12px Arial; color:#000000; text-decoration:underline;}
+a:hover  {text-decoration:none;}
+
+
+
+#header1_bg {
+    width:100%;
+    height:73px;
+    background: url(images/header1_bg.jpg) repeat-x;}
+#header1 {
+    width:900px;
+    height:73px;
+    margin:0 auto;}
+
+#navigation{
+    position:relative;
+    top:43px;
+    width:100%;
+    height:100px;}
+
+#navigation2{
+
+    top:0px;
+    width:100%;
+    height:100px;}
+#menu {
+    font: 12px Tahoma;
+    height:30px;
+    margin:0 auto;
+    line-height:30px;
+    color:#99ba00;}
+#menu li {
+    width:111px;
+    height:30px;
+    list-style-type:none;
+    float:left;
+    text-align:center;
+    background:url(images/menu.gif) no-repeat;}
+#menu li:hover {background:url(images/menu_hov.gif) no-repeat;}
+#menu a {
+    height:30px;
+    text-decoration:none;
+    color:#99ba00;}
+#menu a:hover {
+    color: #000;
+    text-decoration:underline;}
+#menu ul{
+    font:12px Tahoma;
+    margin:0px;
+    padding:0px;
+    z-index: 300;
+}
+#menu ul li{
+    display:block;
+    position:relative;
+    float:left;}
+#menu li ul{
+    display:none;
+    width: 30px;
+}
+#menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: Tahoma;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 20px;
+    background: #1e7c9a;
+    margin-left: 1px;
+    white-space: nowrap;}
+#menu ul li a:hover{
+    background:url(images/menu_hov.gif) no-repeat;}
+#menu li:hover ul{
+    display:block;
+    position:absolute;}
+#menu li:hover li{
+    float:none;
+    font-size:12px;}
+#menu li:hover a {
+    background:url(images/menu_hov.gif) no-repeat;}
+#menu li:hover li a:hover{
+    background:url(images/menu_hov.gif) no-repeat;}
+
+
+
+
+
+
+#header2_bg {
+    width:100%;
+    height:261px;
+    background: url(images/header2_bg.gif) repeat-x;}
+#header2 {
+    width:900px;
+    height:261px;
+    margin:0 auto;
+    position:relative;}
+
+#header2_left {
+    position: absolute;
+    top: 6px;
+    left: 1px;
+    width: 223px;
+    height: 248px;
+}
+
+#menu2 {margin-top:30px; border-top:solid 1px #bfbfbf;}
+#menu2 li {
+    width:223px;
+    height:31px;
+    text-indent:25px;
+    list-style-type:none;
+}
+<!--#menu2 li:hover {background:url(images/left_menu_hov.gif) no-repeat;}-->
+#menu2 a {
+    font:12px Arial;
+    color:#434343;
+    line-height:31px;}
+#menu2 a:hover {color:#99ba00; text-decoration:none;}
+
+#header2_right {
+    position:absolute;
+    top:0; right:0;
+    width:677px;
+    height:242px;
+    background:url(images/pic_bg.jpg) no-repeat right;}
+
+#header2_right h2 {font:bold 16px "Trebuchet MS", sans-serif; color:#849d0e; padding:30px 10px 10px 30px;}
+#header2_right p {font:12px Verdana; padding:0 30px; width:370px;}
+#header2_right a {color:#849d0e; text-decoration:underline;}
+#header2_right a:hover {text-decoration:none;}
+
+#main_bg {
+    width:100%;
+    height:100%;
+    background:grey;}
+#main {
+    width:1200px;
+    height:100%;
+    margin:0 auto;}
+
+#left {
+    display:inline;
+    float:left;
+    width:223px;
+    height:100%;}
+#right1 {
+    display:inline;
+    float:right;
+    width:223px;
+    height:100%;}
+#right1 li {
+    width:223px;
+    height:28px;
+    display:block;
+    text-indent:24px;
+    list-style-type:none;
+    background:url(images/left_li.jpg) no-repeat;}
+#right1 a {
+    color:#fff;
+    line-height:28px;}
+
+
+.cat {
+    width:223px;
+    height:25px;
+    background:url(images/cat.jpg) no-repeat;}
+
+
+#left li {
+    width:223px;
+    height:28px;
+    display:block;
+    text-indent:24px;
+    list-style-type:none;
+    background:url(images/left_li.jpg) no-repeat;}
+#left a {
+    color:#fff;
+    line-height:28px;}
+
+.box {
+    width:100%;
+    background:url(images/ten.gif) no-repeat  bottom;
+    color:#fff;}
+.box1 { padding:0 10px 5px 10px;}
+.data {color:#FFFFFF;}
+
+
+#right {
+    display:inline;
+    float: left;
+
+    width:720px;
+    margin-left: 30px;
+}
+
+#content {
+    width:100%;
+    height:100%;
+    margin-left:10px;
+    background:url(images/cont_bg.gif) repeat-y ;}
+#cont_top {
+    width:662px;
+    height:33px;
+    background:url(images/cont_top.gif) no-repeat;}
+
+#cont_bot {
+    width:800px;
+    height:16px;
+    margin-left:10px;
+    background:url(images/cont_bot.gif) no-repeat;}
+
+#content img {padding-left:3px;}
+
+
+#footer_bg {
+    width:100%;
+    height:114px;
+    background:url(images/footer_bg.gif) repeat-x;}
+#footer {
+    width:900px;
+    height:114px;
+    margin:0 auto;
+    text-align:center;
+    padding-top:30px;}
+
+#footer a {padding:0 16px; color:#000;}
+#footer a:hover {color:#99ba00;}
+
+#foot p {color:#ccc; padding-top:20px;}
+#foot a {color:#99ba00;}
+
+/* I have added this css on 10th april*/
+
+#tab1 a
+{
+    margin-left: 5px;
+    width:111px;
+    height:70px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+#tab a:hover
+{
+    color: black;
+}
+.p1 {
+	margin-bottom: 25px;
+	padding: 0px;
+	background: #FFFFFF;
+}
+
+.p1-bgtop {
+}
+
+.p1-bgbtm {
+}
+
+.p1 .title {
+	height: 38px;
+	background: #1E1E1E url(images/img001.jpg) no-repeat left top;
+	padding: 12px 0 0 20px;
+	letter-spacing: -.5px;
+	color: #FFFFFF;
+}
+
+.p1 .title a {
+	border: none;
+	color: #FFFFFF;
+}
+
+.p1 .meta {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.p1 .meta a {
+}
+
+.p1 .entry {
+	background: url(images/img002.jpg) no-repeat left top;
+	padding: 0px 20px 20px 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+#c1
+{
+	float: left;
+	width: 670px;
+	padding: 0;
+}
+
+.links {
+	display: block;
+	width: 100px;
+	height: 20px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight:  bold;
+}
+
+
